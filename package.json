@@ -1,19 +1,18 @@
 {
-  "name": "file-force-electra",
+  "name": "file-force-electra-root",
   "version": "0.0.1",
-  "description": "File Force on Electron",
+  "description": "File Force on Angular/Electron",
   "author": "Igor Konovalov",
-  "main": "main.js",
+  "license": "LGPL-3.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:ikonovalov/file-force-electra.git"
   },
-  "scripts": {
-    "start": "electron ."
-  },
-  "license": "LGPL-3.0",
-  "dependencies": {
-    "electron": "^1.4.8",
-    "electron-json-storage": "^2.1.0"
+  "devDependencies": {
+    "Q": "0.0.1",
+    "asar": "^0.12.3",
+    "electron-prebuilt": "^1.4.8",
+    "fs-jetpack": "^0.10.3",
+    "rcedit": "^0.7.0"
   }
 }

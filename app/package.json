@@ -1,0 +1,16 @@
+{
+  "name": "file-force-electra",
+  "version": "0.0.1",
+  "description": "File Force on Angular/Electron",
+  "author": "Igor Konovalov",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "electron": "^1.4.8",
+    "electron-json-storage": "^2.1.0",
+    "file-force": "git@github.com:ikonovalov/file-force.git"
+  }
+}
