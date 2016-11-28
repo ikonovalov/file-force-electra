@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>File Force (Electra)</title>
 </head>
 <body>
+<script src="built/bundle.js"></script>
 <h1>File Force (Electra)</h1>
-We are using node <script>document.write(process.versions.node)</script>,
-Chrome <script>document.write(process.versions.chrome)</script>,
-and Electron <script>document.write(process.versions.electron)</script>.
-
-<script type="text/javascript">
-    var fs = require('fs');
-    var file = fs.readFileSync('app/package.json');
-    document.write(file);
-</script>
+<div id = "content"></div>
 </body>
 </html>

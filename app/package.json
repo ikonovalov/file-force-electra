@@ -9,8 +9,6 @@
   },
   "license": "LGPL-3.0",
   "dependencies": {
-    "electron": "^1.4.8",
-    "electron-json-storage": "^2.1.0",
-    "file-force": "git@github.com:ikonovalov/file-force.git"
   }
+
 }
