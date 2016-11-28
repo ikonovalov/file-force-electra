@@ -6,6 +6,7 @@
 require('../../less/main.less');
 
 import React from "react";
+import ReactDOM from "react-dom";
 const element = <div className="myDiv">Hello Electron!</div>;
 
-React.render(element, document.getElementById('content'));
+ReactDOM.render(element, document.getElementById('content'));

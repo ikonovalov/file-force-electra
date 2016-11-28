@@ -18,7 +18,9 @@
     "electron": "^1.4.8",
     "electron-json-storage": "^2.1.0",
     "file-force": "git@github.com:ikonovalov/file-force.git",
-    "react": "^15.4.1"
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-bootstrap": "^0.30.7"
   },
   "devDependencies": {
     "babel": "^6.5.2",
