@@ -7,6 +7,19 @@ require('../../less/main.less');
 
 import React from "react";
 import ReactDOM from "react-dom";
-const element = <div className="myDiv">Hello Electron!</div>;
 
-ReactDOM.render(element, document.getElementById('content'));
+import {Button, ButtonToolbar, Panel, PageHeader} from 'react-bootstrap';
+
+const buttonsInstance = (
+    <Panel>
+        <PageHeader>Example page header
+            <small>Subtext for header</small>
+        </PageHeader>
+        <ButtonToolbar>
+            <Button bsStyle="primary" bsSize="large" active>Primary button</Button>
+            <Button bsSize="large" active>Button</Button>
+        </ButtonToolbar>
+    </Panel>
+);
+
+ReactDOM.render(buttonsInstance, document.getElementById('content'));
